@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;  
+}
+.border{
+    border: 1px solid black ;
+    margin-left: 10px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+
+}
+.icon{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.icon .icon-d{
+    border-right: 1px solid ;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+
+ .ok{
+     position: relative;
+     height: 400px;
+ }
+
+ .when {
+    position: absolute;
+    z-index: 1;
+    left: 3px;
+    top: 5px;
+    max-width: 60px;
+}
+
+ .when .date-day{
+     font-size: 20px;
+ }
+ .when-date, .when-time {
+    color:black;
+    font-family: "pf_din_text_cond_promedium", Arial, sans-serif;
+}
+.date-bg{
+    background-color:#1894A0 ;
+}
+.date-time {
+    padding: 5px 10px 3px;
+    background-color: aqua;
+    font-size: 14px;
+    font-weight: bold;
+}
+.when .date-day{
+    font-size: 20px;
+}
+.when-date, .when-time {
+   color:black;
+   font-family: "pf_din_text_cond_promedium", Arial, sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tittle {
+     margin-bottom: 5px;
+     color: #13317F;
+    line-height: 1.25;
+    font-family: "pf_din_text_cond_promedium", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+ }
+.content{
+    margin-right: 0px;
+}
+.when-date{
+    margin-left: 10px;
+}
